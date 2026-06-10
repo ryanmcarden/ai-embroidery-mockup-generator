@@ -1,0 +1,203 @@
+{
+  "description": "Synthetic benchmark dataset representing completed embroidery jobs with known actual stitch counts. Actual counts reflect realistic production digitizing output. Used to evaluate stitch estimator accuracy.",
+  "jobs": [
+    {
+      "id": "job_001",
+      "description": "Company name in satin block letters, small icon to left",
+      "placement": "left chest",
+      "width_in": 3.5,
+      "height_in": 2.5,
+      "color_count": 3,
+      "complexity": "medium",
+      "actual_stitches": 6200,
+      "notes": "Standard wordmark with small icon; satin text, fill icon"
+    },
+    {
+      "id": "job_002",
+      "description": "Multi-color badge logo with border and inner text",
+      "placement": "left chest",
+      "width_in": 4.0,
+      "height_in": 3.0,
+      "color_count": 4,
+      "complexity": "medium",
+      "actual_stitches": 8500,
+      "notes": "Badge style; outer border adds stitch cost"
+    },
+    {
+      "id": "job_003",
+      "description": "Simple monogram, two initials",
+      "placement": "left chest",
+      "width_in": 2.0,
+      "height_in": 2.0,
+      "color_count": 2,
+      "complexity": "low",
+      "actual_stitches": 3800,
+      "notes": "Small monogram; actual below floor — floor inflates estimate"
+    },
+    {
+      "id": "job_004",
+      "description": "Detailed crest with fine linework, multiple fills, small text",
+      "placement": "left chest",
+      "width_in": 5.0,
+      "height_in": 3.5,
+      "color_count": 5,
+      "complexity": "high",
+      "actual_stitches": 13500,
+      "notes": "Complex crest; fine detail and dense fills drive higher actual count"
+    },
+    {
+      "id": "job_005",
+      "description": "Single-color text-only logo",
+      "placement": "left chest",
+      "width_in": 3.0,
+      "height_in": 2.0,
+      "color_count": 3,
+      "complexity": "low",
+      "actual_stitches": 4100,
+      "notes": "Simple brand name, no icon; actual near floor"
+    },
+    {
+      "id": "job_006",
+      "description": "Team name in arc over small star icon",
+      "placement": "hat front",
+      "width_in": 2.5,
+      "height_in": 2.0,
+      "color_count": 2,
+      "complexity": "low",
+      "actual_stitches": 4200,
+      "notes": "Common hat front layout; actual near floor"
+    },
+    {
+      "id": "job_007",
+      "description": "3-color team logo with wordmark and icon",
+      "placement": "hat front",
+      "width_in": 3.0,
+      "height_in": 2.5,
+      "color_count": 3,
+      "complexity": "medium",
+      "actual_stitches": 7100,
+      "notes": "Standard mid-complexity hat front"
+    },
+    {
+      "id": "job_008",
+      "description": "Single initial with outline stitch",
+      "placement": "hat front",
+      "width_in": 2.0,
+      "height_in": 1.5,
+      "color_count": 1,
+      "complexity": "low",
+      "actual_stitches": 3500,
+      "notes": "Minimal design; actual well below floor"
+    },
+    {
+      "id": "job_009",
+      "description": "Large athletic logo with layered fills and outlines",
+      "placement": "full back",
+      "width_in": 10.0,
+      "height_in": 8.0,
+      "color_count": 5,
+      "complexity": "high",
+      "actual_stitches": 52000,
+      "notes": "Multi-element back design with large fill areas"
+    },
+    {
+      "id": "job_010",
+      "description": "Oversized scenic back design with gradient workaround stitching",
+      "placement": "full back",
+      "width_in": 12.0,
+      "height_in": 10.0,
+      "color_count": 6,
+      "complexity": "high",
+      "actual_stitches": 71000,
+      "notes": "Maximum-size back; gradient converted to layered fill rows"
+    },
+    {
+      "id": "job_011",
+      "description": "Company logo, medium detail, standard back placement",
+      "placement": "full back",
+      "width_in": 8.0,
+      "height_in": 6.0,
+      "color_count": 4,
+      "complexity": "medium",
+      "actual_stitches": 28500,
+      "notes": "Clean corporate logo scaled up for back"
+    },
+    {
+      "id": "job_012",
+      "description": "Small wordmark on sleeve",
+      "placement": "sleeve",
+      "width_in": 4.0,
+      "height_in": 1.5,
+      "color_count": 2,
+      "complexity": "low",
+      "actual_stitches": 3900,
+      "notes": "Thin horizontal text; actual below floor"
+    },
+    {
+      "id": "job_013",
+      "description": "3-color sleeve logo with icon and text",
+      "placement": "sleeve",
+      "width_in": 5.0,
+      "height_in": 2.0,
+      "color_count": 3,
+      "complexity": "medium",
+      "actual_stitches": 5800,
+      "notes": "Standard sleeve badge"
+    },
+    {
+      "id": "job_014",
+      "description": "Small brand name on hat side",
+      "placement": "hat side",
+      "width_in": 2.5,
+      "height_in": 1.5,
+      "color_count": 2,
+      "complexity": "low",
+      "actual_stitches": 3600,
+      "notes": "Minimal side branding; actual below floor"
+    },
+    {
+      "id": "job_015",
+      "description": "3-color logo mark on hat side",
+      "placement": "hat side",
+      "width_in": 3.0,
+      "height_in": 2.0,
+      "color_count": 3,
+      "complexity": "medium",
+      "actual_stitches": 5800,
+      "notes": "Icon-heavy side placement"
+    },
+    {
+      "id": "job_016",
+      "description": "Corporate logo, right chest",
+      "placement": "right chest",
+      "width_in": 3.5,
+      "height_in": 2.5,
+      "color_count": 3,
+      "complexity": "medium",
+      "actual_stitches": 5900,
+      "notes": "Mirror of typical left chest placement"
+    },
+    {
+      "id": "job_017",
+      "description": "High-detail crest on right chest",
+      "placement": "right chest",
+      "width_in": 4.0,
+      "height_in": 3.0,
+      "color_count": 5,
+      "complexity": "high",
+      "actual_stitches": 10200,
+      "notes": "Dense fills and fine detail; estimator significantly undercounts"
+    },
+    {
+      "id": "job_018",
+      "description": "Large logo on back, high complexity",
+      "placement": "back",
+      "width_in": 9.0,
+      "height_in": 7.0,
+      "color_count": 4,
+      "complexity": "high",
+      "actual_stitches": 38000,
+      "notes": "Large back design with multiple fill regions"
+    }
+  ]
+}
